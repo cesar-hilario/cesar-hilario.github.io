@@ -2,7 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"> 
-    <title>Seminario de Geometría y Dinámica</title>
+    <title>Seminario 2026-2</title>
+    
+    <!-- 1. Load the MathJax Script -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <style>
       h2,h3,h4 {
         margin-bottom:3pt;
@@ -20,9 +32,11 @@
         margin-bottom: 3pt;
       }
       td {
-        padding-right: 2pt;
+        padding-right: 12pt; padding-left: 10pt;
+
       }
     </style>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -43,119 +57,80 @@
       <a href="Photo4.jpg"><img src="Photo4.jpg" width="350"/></a>
     </div>
     <h1>Seminario de Geometría y Dinámica</h1>
-    <b>Permanent email:</b> cesar.hilario.pm@gmail.com <br>
-    <b>Institutional email:</b> chilario@pucp.edu.pe <br>
     
-    <p><b>Office:</b> Department of Sciences, Math Section, Room 104
+    <p>
+      Durante el semestre 2026-2 nos reunimos todos los jueves de 3 pm a 5 pm en el Auditorio de Ciencias, Sección Matemáticas para participar del Seminario de Geometría y Dinámica.
     </p>
     <br>
-    <p>
-      Durante el semestre 2026-2 nos reunimos todos los jueves de 3 pm a 5 pm en el Auditorio de Ciencias, Sección Matemáticas.
-      El tema que estudiaremos es el Capítulo 1 del libro <em>Positivity in Algebraic Geometry</em> de Robert Lazarsfeld.
-    </p>
 
-    <b>Permanent email:</b> cesar.hilario.pm@gmail.com <br>
+    <b>Tema:</b> Positividad en Geometría Algebraica (<a href="Programa 2026-2.pdf">Programa</a> escrito por Maycol Falla) <br>
+    <b>Hora y Lugar:</b> Jueves, 15:00 - 17:00, Auditorio de Ciencias, Sección Matemáticas, PUCP.<br>
    
+<h3>Programa</h3>
 
-    <!--- <p>
-      I am a <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/dr-cesar-hilario">postdoc</a> in the working group of <a href="https://www.math.uni-duesseldorf.de/~schroeer/">Stefan Schröer</a>  at <a href="https://www.math.hhu.de/">Heinrich-Heine Universität Düsseldorf</a>.
-      I received my PhD in March 2022 from <a href="https://impa.br/">IMPA</a>, where I was advised by Karl-Otto Stöhr.
-      Before that, I was an undergraduate student at <a href="https://www.uni.edu.pe/">Universidad Nacional de Ingeniería</a> in Lima, Peru.
-    </p>
+<table border="2" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th>Fecha</th>
+      <th>Expositor</th>
+      <th>Título</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>20-08-2026</td>
+      <td>Maycol Falla</td>
+      <td>Introducción y preliminares</td>
+    </tr>
+    <tr>
+      <td>27-08-2026</td>
+      <td>Hugo Castillo</td>
+      <td>La teoría clásica de la amplitud</td>
+    </tr>
+    <tr>
+      <td>03-09-2026</td>
+      <td>Hernán Neciosup</td>
+      <td>$\mathbb Q$-divisores, $\mathbb R$-divisores y divisores nef</td>
+    </tr>
+    <tr>
+      <td>10-09-2026</td>
+      <td>Gabriel Asmat</td>
+      <td>El teorema de Kleiman y los conos de divisores y curvas</td>
+    </tr>
+    <tr>
+      <td>17-09-2026</td>
+      <td>Ricardo Ramos</td>
+      <td>Ejemplos: superficies regladas, productos de curvas y variedades abelianas</td>
+    </tr>
+    <tr>
+      <td>24-09-2026</td>
+      <td>Liliana Puchuri</td>
+      <td>El teorema de anulación de Fujita y la estructura del cono nef</td>
+    </tr>
+    <tr>
+      <td>01-10-2026</td>
+      <td>Andres Beltran</td>
+      <td>Desigualdades y amplitud relativa</td>
+    </tr>
+    <tr>
+      <td>15-10-2026</td>
+      <td>Cesar Hilario</td>
+      <td>Regularidad de Castelnuovo–Mumford</td>
+    </tr>
+    <tr>
+      <td>22-10-2026</td>
+      <td>Rudy Rosas</td>
+      <td>Teoría asintótica de series lineales</td>
+    </tr>
+    <tr>
+      <td>29-10-2026</td>
+      <td>Maycol Falla</td>
+      <td>Divisores big, volumen y las construcciones de Zariski y Cutkosky</td>
+    </tr>
+  </tbody>
+</table>
+
     
-    <p>
-      I work on algebraic geometry in positive characteristic. 
-      I am interested in regular curves that become non-regular after base change, and especially in their connection to fibrations by singular curves in positive characteristic.
-      Among the tools I like to use is the theory of non-conservative function fields.
-    </p>
-    --->
-
     
-    <h3>Research </h3>
-    <ul>
-      <li>A class of geometrically elliptic fibrations by plane projective quartic curves (with Karl-Otto Stöhr), 2025. 
-      <a href="https://arxiv.org/abs/2510.24862">Arxiv</a>.</li>
-      
-      <li>Fibrations by plane projective rational quartic curves in characteristic two (with Karl-Otto Stöhr), 2024. 
-      <a href="https://arxiv.org/abs/2409.05464">Arxiv</a>.</li>
-      
-      <li>Turning non-smooth points into rational points, 2024. 
-      <a href="https://arxiv.org/abs/2402.14969">Arxiv</a>.</li>
-      
-      <li>Fibrations by plane quartic curves with a canonical moving singularity (with Karl-Otto Stöhr). 
-      <i>J. Pure Appl. Algebra</i> 229 (2025), no. 4, Paper No. 107918.
-      <a href="https://arxiv.org/abs/2306.08579">Arxiv</a>.
-      <a href="https://doi.org/10.1016/j.jpaa.2025.107918">Journal</a>.</li>  
-      
-      <li>Generalizations of quasielliptic curves (with Stefan Schröer). 
-      <i>Épijournal Géom. Algébrique</i> 7 (2023), Art. 23, 31 pp.
-      <a href="https://arxiv.org/abs/2303.12324">Arxiv</a>.</li>
-      
-      <li>On regular but non-smooth integral curves (with Karl-Otto Stöhr). 
-      <i>J. Algebra</i> 661 (2025), 278-300.
-      <a href="https://arxiv.org/abs/2211.16962">Arxiv</a>.
-      <a href="https://doi.org/10.1016/j.jalgebra.2024.08.002">Journal</a>.</li>  
-
-
-      <!-- title of paper abbreviated (citation as in Mathscinet for "published papers") -->
-      
-      <!-- "accepted paper" 
-      <li>Generalizations of quasielliptic curves (with Stefan Schröer), 2023. 
-      To appear in <i>Épijournal Géom. Algébrique</i>.
-      <a href="https://arxiv.org/abs/2303.12324">Arxiv</a>.</li> -->
-      
-      <!-- "preprint" 
-      <li>On regular but non-smooth integral curves (with Karl-Otto Stöhr), 2022. 
-      <a href="https://arxiv.org/abs/2211.16962">Arxiv</a>.</li> -->
-      
-    </ul>
-
-    <h3>Current teaching </h3>
-    <ul>
-      <li>Differential Calculus. 2026-1.
-    </ul>
-
-
-
-
-    
-    <h3>Talks </h3>
-    <a href="https://sites.google.com/view/geometraenlasalturas2026/inicio">Geometría en las Alturas</a>, Copacabana, Bolivia. February 2026. <br>
-    <a href="https://www.imms.pe/">VII Encuentro Internacional de Ciencias Matemáticas</a>, UNASAM. December 2025. <br>
-    <a href="https://sites.google.com/view/eneag25/home">First Brazilian Northeastern Meeting on Commutative Algebra and Algebraic Geometry</a>, Recife, Brazil. November 2025. <br>
-    <a href="https://sites.google.com/view/geoalgcompluff">Seminar of Complex and Algebraic Geometry</a>, UFF. November 2025. <br>
-    Seminar of Algebra, UERJ. November 2025. <br>
-    <a href="https://seminarios.impa.br/visualizar/10326">Seminar of Algebra</a>, IMPA. October 2025. <br>
-    Minicourse on Toric Varieties, UNASAM. July 2025. <br>
-    <a href="https://api-agenda.pucp.edu.pe/uploads/CH_Poma_bcc04d7b14.pdf">Seminar of mathematics</a>, PUCP. June 2025. <br>
-    Conference of mathematics, UNASAM. June 2025. <br>
-    <a href="https://sites.google.com/imca.edu.pe/gagt/seminarios/seminario-2025-i?authuser=0">Seminar Topics on Algebraic Geometry</a>, Universidad Nacional de Ingeniería. May 2025. <br>
-    <a href="https://www.imo.universite-paris-saclay.fr/fr/events/7502">Séminaire Arithmétique et Géométrie Algébrique d'Orsay</a>, Université Paris-Saclay. November 2024. <br>
-    <a href="https://math.univ-lille.fr/detail-event/cesar-hilario-heinrich-heine-universitaet-duesseldorf-regular-but-non-smooth-curves-of-genus-3">Séminaire "Géométrie algébrique"</a>, Université de Lille. November 2024. <br>
-    <a href="https://www.iag.uni-hannover.de/fileadmin/iag/oberseminar/ss_2024/Hilario.pdf">Oberseminar Algebraic Geometry</a>, Leibniz Universität Hannover. May 2024. <br>
-    Miniworkshop on Algebraic Geometry, Phillips University of Marburg. November 2023. <br>
-    <a href="https://www.uni-goettingen.de/en/677073.html">Developments in Modern Mathematics: a WiMGo conference</a>, University of Göttingen. September 2023. <br>
-    <a href="https://www.math.uni-bielefeld.de/entr23/">Early Number Theory Researchers Workshop 2023</a>, Bielefeld University. August 2023. <br>
-    Seminar of Algebra, University of Gröningen. May 2023. <br>
-    Graduate Students Colloquium, IMPA. March 2023. <br>
-    <a href="https://www.math.uni-duesseldorf.de/~grk2240/schedule_WS2223.html">Workshop 2240</a>, University of Wuppertal. November 2022. <br>
-    <a href="http://math.ac.vn/en/hinh-hoc-dai-so/icalrepeat.detail/2022/07/21/4853/-/fibrations-by-singular-curves-in-positive-characteristic.html">Seminar of Algebraic Geometry</a>, Hanoi Institute of Mathematics (online). July 2022. <br>
-    <a href="https://www.math.uni-duesseldorf.de/~schroeer/22_ss_Oberseminar/Oberseminar_AlgebraischeGeometrie_ss2022.html">Oberseminar Algebraic Geometry</a>, HHU Düsseldorf. June 2022. <br>
-    38 movimientos, PUCP. September 2021. <br>
-    <a href="https://www.math.uni-duesseldorf.de/~schroeer/21_ss_Oberseminar/Oberseminar_AlgebraischeGeometrie.html">Oberseminar Algebraic Geometry</a>, HHU Düsseldorf (online). May 2021. <br>
-    <a href="https://sites.google.com/view/agsags/calendar">American Graduate Student Algebraic Geometry Seminar</a> (online). April 2021. <br>
-    Seminar of mathematics, PUCP (online). April 2021. <br>
-    Segundo Congreso Internacional Multidisciplinario, Universidad Nacional de Ingeniería (online). March 2021. <br>
-    <a href="https://seminarios.impa.br/visualizar/9279">Seminar of algebra<a>, IMPA (online). January 2021. <br>
-    <a href="https://sites.google.com/site/cotterillethan/ethan-cotterill-eng/brazilian-algebraic-geometry-seminar"> Brazilian Algebraic Geometry Seminar<a> (online). September 2020. <br>
-    <a href="https://sites.google.com/view/simonsconferences/simons-foundation/rationality">MPS Conference on Higher Dimensional Geometry 2020: Rationality</a>, Simons Foundation (online). July 2020. <br>
-    <a href="https://seminarios.impa.br/visualizar/9002">Graduate Students Coloquium</a>, IMPA. May 2019. <br>
-    <a href="http://imca.edu.pe/jpalacios/files/Seminario_IMCA/semestre_2019-I.html">Seminar of Algebra</a>, IMCA. April 2019. <br>
-    
-    <h3>Seminars</h3>
-    In 2021, during the covid pandemic, I co-organized a virtual <a href="https://sites.google.com/view/seminario-ga-alunos-impa/home">Student Algebraic Geometry Seminar at IMPA</a>.
-    
-    <h3>Miscellaneous</h3>
-    My <a href="Tesis.pdf">undergraduate dissertation</a> (in Spanish) on the Generalized Nash Equilibrium Problem.
   </body>
 </html>
